@@ -3,6 +3,19 @@ import re
 from collections import Counter
 import joblib
 import matplotlib.pyplot as plt
+import pandas as pd  # <-- 이 부분이 상단에 반드시 있어야 합니다!
+import plotly.express as px
+import seaborn as sns
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import classification_report
+from sklearn.model_selection import train_test_split
+import streamlit as st
+import wordcloudimport os
+import re
+from collections import Counter
+import joblib
+import matplotlib.pyplot as plt
 import pandas as pd
 import plotly.express as px
 import seaborn as sns
