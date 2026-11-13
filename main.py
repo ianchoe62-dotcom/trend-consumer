@@ -112,7 +112,7 @@ if st.button("분류 예측 실행"):
         prob_df = pd.DataFrame({'Reaction': classes, 'Probability': probs})
         fig_bar = px.bar(prob_df, x='Reaction', y='Probability', color='Reaction', title="유형별 확률 분포")
         st.plotly_chart(fig_bar)
-pandas
+import pandas as pd
 scikit-learn
 matplotlib
 seaborn
